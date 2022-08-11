@@ -4,7 +4,7 @@
 Console.Write("Введите число:");
 int N = int.Parse(Console.ReadLine());
 { 
-    Console.WriteLine("Число" + "\t" + "Куб");
+    Console.WriteLine("Число" + "   " + "Куб");
     for(int i = 1; i <= N; i++)
     {
         Console.WriteLine(i + " ^ 3 = " + i*i*i);
